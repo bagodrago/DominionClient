@@ -12,13 +12,5 @@ namespace DominionVirtualClient.Classes
         public int Cost { get; }
         public Player Owner { get; set; }
 
-        public virtual void AddedToHand() { }
-        public virtual void Cleanup() { DiscardSelf(); }
-
-
-        public void DiscardSelf() { }
-        public void TrashSelf() { }
-        public void GainSelf() { }
-        public void ShuffleSelf() { }
     }
 }

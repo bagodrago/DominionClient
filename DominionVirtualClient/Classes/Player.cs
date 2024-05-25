@@ -8,12 +8,17 @@ namespace DominionVirtualClient.Classes
 {
     internal class Player
     {
-        public Player() { }
+        public Player() 
+        {
+            Deck = new Deck();
+            Hand = new Hand();
+            DiscardPile = new DiscardPile();
+        }
 
-        private Deck myDeck { get; set; }
-        private Hand myHand { get; }
+        public Deck Deck { get; }
+        public Hand Hand { get; }
 
-        private DiscardPile myDiscardPile { get; }
+        public DiscardPile DiscardPile { get; }
 
     }
 }

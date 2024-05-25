@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace DominionVirtualClient.Classes
 {
-    internal class Hand
+    internal class Hand : Pile
     {
+        public Hand(Player owner) { Owner = owner; }
     }
 }

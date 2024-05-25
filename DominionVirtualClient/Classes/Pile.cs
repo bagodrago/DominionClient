@@ -9,21 +9,25 @@ namespace DominionVirtualClient.Classes
 {
     internal abstract class Pile
     {
-        public List<Card> contents { get; }
+        public List<Card> Contents { get; }
+        internal Player Owner { get; set; }
 
         public virtual void AddToTopOfPile(Card recruit) 
         {
-            contents.Insert(0, recruit);
+            Contents.Insert(0, recruit);
         }
-        public virtual void AddToTopOfPile(List<Card> recruits) 
+        public virtual void AddToTopOfPile(Card[] recruits) 
         { 
-            
+            foreach (Card recruit in recruits) 
+            { 
+                AddToTopOfPile((Card) recruit);
+            }
         }
 
         public virtual Card RemoveFromTopOfPile() 
         {
-            Card temp = contents.First();
-            contents.Remove(temp);
+            Card temp = Contents.First();
+            Contents.Remove(temp);
             return temp; 
         }
         public virtual Card[] RemoveFromTopOfPile(int howMany)
@@ -40,11 +44,22 @@ namespace DominionVirtualClient.Classes
         { 
             // Will likely not be necessary if using an animation or will be shorthand
             Card[] temp = {};
-            contents.CopyTo(temp);
-            contents.Clear();
+            Contents.CopyTo(temp);
+            Contents.Clear();
             return temp;
         }
 
-        public virtual void SelectFromPile(int howMany, Card cardType) { } // Show contents to player and select a number
+        
+        public virtual Card[] SelectFromPile(int howMany, Card cardType) // (!) Not implemented
+        {
+            throw new NotImplementedException();
+            /*
+            Card[] selected = new Card[howMany];
+
+            // Show pop-up for player here
+
+            return selected;
+            */
+        }
     }
 }
