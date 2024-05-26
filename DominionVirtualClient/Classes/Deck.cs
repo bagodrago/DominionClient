@@ -10,7 +10,7 @@ namespace DominionVirtualClient.Classes
     {
         public Deck(Player owner) { Owner = owner; }
 
-        public void Draw()
+        public void Draw() // Include functionality for out of cards
         {
             Card temp = RemoveFromTopOfPile();
             Owner.Hand.AddToTopOfPile(temp);

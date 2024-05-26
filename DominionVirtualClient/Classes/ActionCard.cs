@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace DominionVirtualClient.Classes
 {
-    internal class ActionCard
+    internal abstract class ActionCard : Card
     {
+        public void Play() 
+        {
+            // Place into play field
+
+            Effect();
+        }
+        public abstract void Effect();
+
+        
     }
 }
