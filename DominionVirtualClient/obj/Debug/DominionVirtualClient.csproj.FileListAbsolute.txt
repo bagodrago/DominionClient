@@ -1,0 +1,9 @@
+O:\ProgramData\DominionClient\DominionVirtualClient\bin\Debug\DominionVirtualClient.exe.config
+O:\ProgramData\DominionClient\DominionVirtualClient\bin\Debug\DominionVirtualClient.exe
+O:\ProgramData\DominionClient\DominionVirtualClient\bin\Debug\DominionVirtualClient.pdb
+O:\ProgramData\DominionClient\DominionVirtualClient\obj\Debug\DominionVirtualClient.csproj.AssemblyReference.cache
+O:\ProgramData\DominionClient\DominionVirtualClient\obj\Debug\DominionVirtualClient.Properties.Resources.resources
+O:\ProgramData\DominionClient\DominionVirtualClient\obj\Debug\DominionVirtualClient.csproj.GenerateResource.cache
+O:\ProgramData\DominionClient\DominionVirtualClient\obj\Debug\DominionVirtualClient.csproj.CoreCompileInputs.cache
+O:\ProgramData\DominionClient\DominionVirtualClient\obj\Debug\DominionVirtualClient.exe
+O:\ProgramData\DominionClient\DominionVirtualClient\obj\Debug\DominionVirtualClient.pdb

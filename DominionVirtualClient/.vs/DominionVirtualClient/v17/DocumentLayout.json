@@ -1,10 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "O:\\ProgramData\\Source\\Workspaces\\DominionClient\\DominionClient\\DominionVirtualClient\\",
+  "WorkspaceRootPath": "O:\\ProgramData\\DominionClient\\DominionVirtualClient\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6F94CCDF-2C5C-411D-9457-69EB73F7149F}|DominionVirtualClient.csproj|o:\\programdata\\source\\workspaces\\dominionclient\\dominionclient\\dominionvirtualclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6F94CCDF-2C5C-411D-9457-69EB73F7149F}|DominionVirtualClient.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{6F94CCDF-2C5C-411D-9457-69EB73F7149F}|DominionVirtualClient.csproj|o:\\programdata\\dominionclient\\dominionvirtualclient\\classes\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F94CCDF-2C5C-411D-9457-69EB73F7149F}|DominionVirtualClient.csproj|solutionrelative:classes\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F94CCDF-2C5C-411D-9457-69EB73F7149F}|DominionVirtualClient.csproj|o:\\programdata\\dominionclient\\dominionvirtualclient\\classes\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F94CCDF-2C5C-411D-9457-69EB73F7149F}|DominionVirtualClient.csproj|solutionrelative:classes\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F94CCDF-2C5C-411D-9457-69EB73F7149F}|DominionVirtualClient.csproj|o:\\programdata\\dominionclient\\dominionvirtualclient\\classes\\actioncard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F94CCDF-2C5C-411D-9457-69EB73F7149F}|DominionVirtualClient.csproj|solutionrelative:classes\\actioncard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F94CCDF-2C5C-411D-9457-69EB73F7149F}|DominionVirtualClient.csproj|o:\\programdata\\dominionclient\\dominionvirtualclient\\classes\\playfield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F94CCDF-2C5C-411D-9457-69EB73F7149F}|DominionVirtualClient.csproj|solutionrelative:classes\\playfield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F94CCDF-2C5C-411D-9457-69EB73F7149F}|DominionVirtualClient.csproj|o:\\programdata\\dominionclient\\dominionvirtualclient\\classes\\deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F94CCDF-2C5C-411D-9457-69EB73F7149F}|DominionVirtualClient.csproj|solutionrelative:classes\\deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +30,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "O:\\ProgramData\\Source\\Workspaces\\DominionClient\\DominionClient\\DominionVirtualClient\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "O:\\ProgramData\\Source\\Workspaces\\DominionClient\\DominionClient\\DominionVirtualClient\\Form1.cs [Design]",
-              "RelativeToolTip": "Form1.cs [Design]",
+              "DocumentIndex": 1,
+              "Title": "Card.cs",
+              "DocumentMoniker": "O:\\ProgramData\\DominionClient\\DominionVirtualClient\\Classes\\Card.cs",
+              "RelativeDocumentMoniker": "Classes\\Card.cs",
+              "ToolTip": "O:\\ProgramData\\DominionClient\\DominionVirtualClient\\Classes\\Card.cs",
+              "RelativeToolTip": "Classes\\Card.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-25T21:12:36.875Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-05-26T00:36:23.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayField.cs",
+              "DocumentMoniker": "O:\\ProgramData\\DominionClient\\DominionVirtualClient\\Classes\\PlayField.cs",
+              "RelativeDocumentMoniker": "Classes\\PlayField.cs",
+              "ToolTip": "O:\\ProgramData\\DominionClient\\DominionVirtualClient\\Classes\\PlayField.cs",
+              "RelativeToolTip": "Classes\\PlayField.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T00:57:07.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ActionCard.cs",
+              "DocumentMoniker": "O:\\ProgramData\\DominionClient\\DominionVirtualClient\\Classes\\ActionCard.cs",
+              "RelativeDocumentMoniker": "Classes\\ActionCard.cs",
+              "ToolTip": "O:\\ProgramData\\DominionClient\\DominionVirtualClient\\Classes\\ActionCard.cs",
+              "RelativeToolTip": "Classes\\ActionCard.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T00:43:44.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Deck.cs",
+              "DocumentMoniker": "O:\\ProgramData\\DominionClient\\DominionVirtualClient\\Classes\\Deck.cs",
+              "RelativeDocumentMoniker": "Classes\\Deck.cs",
+              "ToolTip": "O:\\ProgramData\\DominionClient\\DominionVirtualClient\\Classes\\Deck.cs",
+              "RelativeToolTip": "Classes\\Deck.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T00:31:10.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Player.cs",
+              "DocumentMoniker": "O:\\ProgramData\\DominionClient\\DominionVirtualClient\\Classes\\Player.cs",
+              "RelativeDocumentMoniker": "Classes\\Player.cs",
+              "ToolTip": "O:\\ProgramData\\DominionClient\\DominionVirtualClient\\Classes\\Player.cs",
+              "RelativeToolTip": "Classes\\Player.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T22:10:08.055Z",
+              "EditorCaption": ""
             }
           ]
         }
