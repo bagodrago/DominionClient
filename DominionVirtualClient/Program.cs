@@ -14,13 +14,11 @@ namespace DominionVirtualClient
         [STAThread]
         static void Main()
         {
-            rng = new Random();
+            CustomUtils.rng = new Random();
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
         }
-
-        public static Random rng;
     }
 }

@@ -46,6 +46,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\Card.cs" />
+    <Compile Include="Classes\Deck.cs" />
+    <Compile Include="Classes\DiscardPile.cs" />
+    <Compile Include="Classes\Hand.cs" />
+    <Compile Include="Classes\Pile.cs" />
+    <Compile Include="Classes\Player.cs" />
+    <Compile Include="CustomUtils.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -6,10 +6,7 @@ using System.Threading.Tasks;
 
 namespace DominionVirtualClient.Classes
 {
-    internal class DiscardPile : Pile
+    internal class ActionCard
     {
-        public DiscardPile(Player owner) { Owner = owner; }
-
-
     }
 }

@@ -14,7 +14,6 @@ namespace DominionVirtualClient.Classes
         {
             Card temp = RemoveFromTopOfPile();
             Owner.Hand.AddToTopOfPile(temp);
-            temp.AddedToHand();
         }
         public void Draw(int howMany)
         {
@@ -26,7 +25,12 @@ namespace DominionVirtualClient.Classes
 
         public void Shuffle() 
         { 
-            
+            CustomUtils.Shuffle(Contents);
+        }
+
+        public Card[] Reveal(int howMany)
+        {
+            return new Card[howMany];
         }
     }
 }

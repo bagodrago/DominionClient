@@ -9,5 +9,12 @@ namespace DominionVirtualClient.Classes
     internal class Hand : Pile
     {
         public Hand(Player owner) { Owner = owner; }
+
+        public void Discard(int index)
+        {
+            Card temp = Contents[index];
+            Contents.RemoveAt(index);
+            Owner.DiscardPile.AddToTopOfPile(temp);
+        }
     }
 }
