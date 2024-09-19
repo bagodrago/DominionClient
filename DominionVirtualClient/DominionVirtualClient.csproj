@@ -46,7 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Classes\ActionCard.cs" />
+    <Compile Include="CardFactory.cs" />
     <Compile Include="Classes\Card.cs" />
     <Compile Include="Classes\Deck.cs" />
     <Compile Include="Classes\DiscardPile.cs" />
@@ -54,6 +54,7 @@
     <Compile Include="Classes\Pile.cs" />
     <Compile Include="Classes\Player.cs" />
     <Compile Include="Classes\PlayField.cs" />
+    <Compile Include="Classes\SupplyPile.cs" />
     <Compile Include="CustomUtils.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>

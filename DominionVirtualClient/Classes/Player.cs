@@ -13,15 +13,17 @@ namespace DominionVirtualClient.Classes
             Deck = new Deck(this);
             Hand = new Hand(this);
             DiscardPile = new DiscardPile(this);
+            PlayField = new PlayField(this);
         }
 
         public Deck Deck { get; }
         public Hand Hand { get; }
         public DiscardPile DiscardPile { get; }
+        public PlayField PlayField { get; }
 
         public int Treasure { get; set; }
-        public int Actions { get; }
-        public int Buys { get; }
+        public int Actions { get; set; }
+        public int Buys { get; set; }
 
     }
 }
